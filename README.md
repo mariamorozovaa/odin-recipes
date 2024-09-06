@@ -1,0 +1,1 @@
+Hello everyone! I am learning HTML and I plan to do my first project to practice my HTML skills. There will be a website with recipes. I want to demonstrate the skills of working with tags and attributes, paragraphs, images, and lists.
