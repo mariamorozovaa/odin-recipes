@@ -1,27 +1,47 @@
 * {
-  font-family: "Trebuchet MS", sans-serif;
-  color: #31572c;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #31572c;
 }
 
 h1 {
-  text-align: center;
-  color: #283618;
-  height: 55px;
-  font-size: 50px;
+    text-align: center;
+    color: #283618;
+    font-size: 50px;
+}
+
+p {
+    font-style: italic;
+    font-size: 25px;
 }
 
 a {
-  font-style: italic;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-div {
-  height: 220px;
-  text-align: center;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 img {
-  width: auto;
-  height: 150px;
+    width: auto;
+    height: 300px;
+}
+
+.card-of-recipe {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 0 20px 50px;
+    height: 550px;
+    width: 600px;
+    text-align: center;
+    background-color: rgba(158, 179, 149, 0.3);
+}
+
+.btn-go-recipe {
+    /* display: inline-block; */
+    background-color: rgb(203, 222, 203);
+    border-radius: 35%;
+    border-color: #283618;
+    border-style: dashed;
+    height: 50px;
+    width: auto;
+    padding: 20px;
 }

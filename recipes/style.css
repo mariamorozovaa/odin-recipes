@@ -1,34 +1,74 @@
 * {
-  font-family: "Trebuchet MS", sans-serif;
-  color: #31572c;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #31572c;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 p,
 li {
-  font-size: 18px;
-}
-
-h1,
-h2,
-div {
-  text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
 h1 {
-  color: #283618;
-  height: 55px;
-  font-size: 50px;
+    color: #283618;
+    height: 55px;
+    font-size: 50px;
 }
 
 h2 {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 h3 {
-  font-size: 23px;
+    font-size: 23px;
 }
 
 img {
-  height: 300px;
-  width: auto;
+    height: 300px;
+    width: auto;
+}
+
+.back {
+    margin: 0 auto;
+}
+
+.ingredients li {
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 8px 0;
+    text-align: left;
+}
+
+.back-button {
+    display: inline-block;
+    box-sizing: border-box;
+
+    border-radius: 35%;
+    border-color: #283618;
+    border-style: dashed;
+
+    margin: 30px;
+    padding: 10px 20px;
+
+    background-color: rgb(203, 222, 203);
+    height: 50px;
+    width: auto;
+    text-decoration: none;
+}
+
+.steps {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.steps li {
+    text-align: left;
+}
+
+.ingredients,
+.descripton {
+    width: 70%;
+    margin: 0 auto;
 }
