@@ -1,17 +1,19 @@
 * {
     font-family: "Trebuchet MS", sans-serif;
     color: #31572c;
+    box-sizing: border-box;
 }
 
 h1 {
     text-align: center;
-    color: #283618;
-    font-size: 50px;
+    color: rgb(58, 90, 64);
+    font-size: 55px;
+    margin: 40px 0px 60px 0px;
 }
 
 p {
-    font-style: italic;
-    font-size: 25px;
+    /* font-style: italic; */
+    font-size: 27px;
 }
 
 a {
@@ -21,27 +23,36 @@ a {
 
 img {
     width: auto;
-    height: 300px;
+    height: 350px;
+    border-radius: 5%;
+    border: #2d682d 1px solid;
+    box-shadow: 6px 6px 3px 0px rgba(88, 129, 87, 0.5);
 }
 
 .card-of-recipe {
     display: inline-block;
-    box-sizing: border-box;
-    padding: 40px;
+    padding: 30px;
     margin: 0 20px 50px;
-    height: 550px;
+    height: 600px;
     width: 600px;
+    background-color: rgba(163, 177, 138, 0.3);
+    box-shadow: 6px 6px 7px 0px rgba(88, 129, 87, 0.5);
+    border-radius: 5%;
+    border: #2d682d 1px solid;
+}
+
+.main-page {
     text-align: center;
-    background-color: rgba(158, 179, 149, 0.3);
 }
 
 .btn-go-recipe {
-    /* display: inline-block; */
-    background-color: rgb(203, 222, 203);
-    border-radius: 35%;
-    border-color: #283618;
-    border-style: dashed;
-    height: 50px;
-    width: auto;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(88, 129, 87, 0.3);
+    border-radius: 30%;
+    border: #2d682d 1px solid;
+    height: 70px;
+    width: 100px;
     padding: 20px;
+    box-shadow: 3px 3px 1px 0px rgba(52, 78, 65, 0.5);
 }
