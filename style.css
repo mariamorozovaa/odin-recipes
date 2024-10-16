@@ -1,6 +1,6 @@
 * {
     font-family: "Trebuchet MS", sans-serif;
-    color: #31572c;
+    color: rgb(58, 90, 64);
     box-sizing: border-box;
 }
 
@@ -14,8 +14,7 @@ h1 {
 }
 
 p {
-    /* font-style: italic; */
-    font-size: 27px;
+    font-size: 30px;
 }
 
 a {
@@ -27,7 +26,7 @@ img {
     width: auto;
     height: 350px;
     border-radius: 5%;
-    border: #2d682d 1px solid;
+    border: rgba(88, 129, 87, 0.5) 3px solid;
     box-shadow: 6px 6px 3px 0px rgba(88, 129, 87, 0.5);
 }
 
@@ -35,12 +34,11 @@ img {
     display: inline-block;
     padding: 30px;
     margin: 0 20px 50px;
-    height: 600px;
     width: 600px;
     background-color: rgba(163, 177, 138, 0.3);
     box-shadow: 6px 6px 7px 0px rgba(88, 129, 87, 0.5);
     border-radius: 5%;
-    border: #2d682d 1px solid;
+    border: rgba(88, 129, 87, 0.4) 3px solid;
 }
 
 .main-page {
@@ -52,9 +50,12 @@ img {
     margin: 0 auto;
     background-color: rgba(88, 129, 87, 0.3);
     border-radius: 30%;
-    border: #2d682d 1px solid;
     height: 70px;
+    border: rgba(52, 78, 65, 0.5) 2px solid;
+
     width: 100px;
     padding: 20px;
     box-shadow: 3px 3px 1px 0px rgba(52, 78, 65, 0.5);
+    font-weight: bold;
+    margin-top: -20px;
 }
